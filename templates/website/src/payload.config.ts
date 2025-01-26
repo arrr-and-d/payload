@@ -16,6 +16,7 @@ import { Header } from './Header/config'
 import { plugins } from './plugins'
 import { defaultLexical } from '@/fields/defaultLexical'
 import { getServerSideURL } from './utilities/getURL'
+import { i18nOptions, localization } from './i18n'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -91,4 +92,7 @@ export default buildConfig({
     },
     tasks: [],
   },
+  localization: localization,
+
+  i18n: i18nOptions,
 })
