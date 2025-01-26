@@ -316,6 +316,15 @@ Before deploying your app, you need to:
 
 You can also deploy your app manually, check out the [deployment documentation](https://payloadcms.com/docs/production/deployment) for full details.
 
+### Language Selection & Enabled Languages
+
+This language picker uses the `next-intl` package.
+
+Edit your [Payload config](https://payloadcms.com/docs/configuration/overview) to enable other languages.
+The language picker displays enabled languages.
+
+See: [Official localization guide](https://payloadcms.com/docs/configuration/localization), [Official internationalization guide](https://payloadcms.com/docs/configuration/i18n), [next-intl docs](https://next-intl.dev/docs/getting-started)
+
 ## Questions
 
 If you have any issues or questions, reach out to us on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions).
